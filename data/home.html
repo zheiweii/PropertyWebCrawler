@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-US">
+<head>
+<title>Page Title</title>
+</head>
+<body style="background-color:white;">
+<head>
+
+<style>
+body {
+  background-image: url('building.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #008080;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="analytics.html">Analytics</a>
+</div>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #20B2AA;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  opacity: 0.85;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Style the footer */
+footer {
+  background-color: #008080;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  opacity: 0.85;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Property Search</h2>
+</header>
+
+
+<head>
+<style>
+table {
+  background-color:#F6F6F6; 
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search house name....." title="Type in a name">
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">House Name</th>
+<th title="Field #2">Price($)</th>
+<th title="Field #3">House Type</th>
+<th title="Field #4">Square Feet</th>
+<th title="Field #5">Price per Sq Ft ($)</th>
+<th title="Field #6">Bedrooms</th>
+</tr></thead>
+<tbody id="myUL"><tr>
+<td><a href="#">Amber Residences</a></td>
+<td align="right">3390000</td>
+<td>Condominium</td>
+<td align="right">1797</td>
+<td align="right">1886</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Watertown</a></td>
+<td align="right">780000</td>
+<td>Apartment</td>
+<td align="right">527</td>
+<td align="right">1480</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">The Nautical</a></td>
+<td align="right">1080000</td>
+<td>Condominium</td>
+<td align="right">1119</td>
+<td align="right">965</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">The Hyde</a></td>
+<td align="right">1862000</td>
+<td>Condominium</td>
+<td align="right">678</td>
+<td align="right">2746</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Meyerhouse</a></td>
+<td align="right">5139000</td>
+<td>Condominium</td>
+<td align="right">1862</td>
+<td align="right">2760</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Fourth Avenue Residences</a></td>
+<td align="right">1057000</td>
+<td>Apartment</td>
+<td align="right">484</td>
+<td align="right">2184</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Pullman Residences Newton</a></td>
+<td align="right">1341000</td>
+<td>Apartment</td>
+<td align="right">463</td>
+<td align="right">2896</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Fourth Avenue Residences</a></td>
+<td align="right">2389000</td>
+<td>Apartment</td>
+<td align="right">1076</td>
+<td align="right">2220</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Riverfront Residences</a></td>
+<td align="right">1200000</td>
+<td>Apartment</td>
+<td align="right">1066</td>
+<td align="right">1126</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">One Holland Village Residences</a></td>
+<td align="right">2645000</td>
+<td>Apartment</td>
+<td align="right">1098</td>
+<td align="right">2409</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Dunearn 386</a></td>
+<td align="right">1174000</td>
+<td>Apartment</td>
+<td align="right">452</td>
+<td align="right">2597</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Trilive</a></td>
+<td align="right">1050000</td>
+<td>Condominium</td>
+<td align="right">549</td>
+<td align="right">1913</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">View at Kismis</a></td>
+<td align="right">1700000</td>
+<td>Apartment</td>
+<td align="right">1012</td>
+<td align="right">1680</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">Riversails</a></td>
+<td align="right">1080000</td>
+<td>Condominium</td>
+<td align="right">914</td>
+<td align="right">1182</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Wilshire Residences</a></td>
+<td align="right">1200000</td>
+<td>Apartment</td>
+<td align="right">463</td>
+<td align="right">2592</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Urban Treasures</a></td>
+<td align="right">833200</td>
+<td>Condominium</td>
+<td align="right">452</td>
+<td align="right">1843</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Seaside Residences</a></td>
+<td align="right">1382000</td>
+<td>Apartment</td>
+<td align="right">678</td>
+<td align="right">2038</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">The Woodleigh Residences</a></td>
+<td align="right">1009000</td>
+<td>Apartment</td>
+<td align="right">570</td>
+<td align="right">1770</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Dairy Farm Residences</a></td>
+<td align="right">2008900</td>
+<td>Apartment</td>
+<td align="right">1324</td>
+<td align="right">1517</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">Pullman Residences Newton</a></td>
+<td align="right">3231000</td>
+<td>Apartment</td>
+<td align="right">1163</td>
+<td align="right">2778</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Affinity At Serangoon</a></td>
+<td align="right">1026000</td>
+<td>Apartment</td>
+<td align="right">635</td>
+<td align="right">1616</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">120 Grange</a></td>
+<td align="right">2217000</td>
+<td>Apartment</td>
+<td align="right">678</td>
+<td align="right">3270</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Mackenzie 88</a></td>
+<td align="right">1550000</td>
+<td>Apartment</td>
+<td align="right">850</td>
+<td align="right">1824</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Stirling Residences</a></td>
+<td align="right">1623000</td>
+<td>Apartment</td>
+<td align="right">883</td>
+<td align="right">1838</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">The Topiary</a></td>
+<td align="right">938000</td>
+<td>Condominium</td>
+<td align="right">915</td>
+<td align="right">1025</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Artra</a></td>
+<td align="right">2042000</td>
+<td>Apartment</td>
+<td align="right">1044</td>
+<td align="right">1956</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Mayfair Modern</a></td>
+<td align="right">958000</td>
+<td>Condominium</td>
+<td align="right">517</td>
+<td align="right">1853</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Stirling Residences</a></td>
+<td align="right">1132000</td>
+<td>Apartment</td>
+<td align="right">624</td>
+<td align="right">1814</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Stirling Residences</a></td>
+<td align="right">862000</td>
+<td>Apartment</td>
+<td align="right">441</td>
+<td align="right">1955</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Parc Clematis</a></td>
+<td align="right">838000</td>
+<td>Apartment</td>
+<td align="right">506</td>
+<td align="right">1656</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Marina Bay Suites</a></td>
+<td align="right">28800000</td>
+<td>Condominium</td>
+<td align="right">8513</td>
+<td align="right">3383</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td><a href="#">Loft @ Nathan</a></td>
+<td align="right">1500000</td>
+<td>Apartment</td>
+<td align="right">904</td>
+<td align="right">1659</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">V On Shenton</a></td>
+<td align="right">2796800</td>
+<td>Apartment</td>
+<td align="right">1206</td>
+<td align="right">2319</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">H Residences</a></td>
+<td align="right">599000</td>
+<td>Apartment</td>
+<td align="right">474</td>
+<td align="right">1264</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Clover By The Park</a></td>
+<td align="right">1960000</td>
+<td>Condominium</td>
+<td align="right">1603</td>
+<td align="right">1223</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">368 Thomson</a></td>
+<td align="right">1150000</td>
+<td>Condominium</td>
+<td align="right">689</td>
+<td align="right">1669</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">RV Residences</a></td>
+<td align="right">2500000</td>
+<td>Condominium</td>
+<td align="right">1205</td>
+<td align="right">2075</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">The Crest</a></td>
+<td align="right">1570000</td>
+<td>Condominium</td>
+<td align="right">775</td>
+<td align="right">2026</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Gardenvista</a></td>
+<td align="right">1280000</td>
+<td>Condominium</td>
+<td align="right">872</td>
+<td align="right">1468</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Whistler Grand</a></td>
+<td align="right">938400</td>
+<td>Apartment</td>
+<td align="right">614</td>
+<td align="right">1528</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Jui Residences</a></td>
+<td align="right">1227000</td>
+<td>Apartment</td>
+<td align="right">657</td>
+<td align="right">1868</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">The Garden Residences</a></td>
+<td align="right">939000</td>
+<td>Apartment</td>
+<td align="right">614</td>
+<td align="right">1529</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">View at Kismis</a></td>
+<td align="right">1700000</td>
+<td>Apartment</td>
+<td align="right">1012</td>
+<td align="right">1680</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">The Antares</a></td>
+<td align="right">789000</td>
+<td>Apartment</td>
+<td align="right">452</td>
+<td align="right">1746</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Seaside Residences</a></td>
+<td align="right">1052000</td>
+<td>Apartment</td>
+<td align="right">420</td>
+<td align="right">2505</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Affinity At Serangoon</a></td>
+<td align="right">1288000</td>
+<td>Apartment</td>
+<td align="right">850</td>
+<td align="right">1515</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Mayfair Modern</a></td>
+<td align="right">1954000</td>
+<td>Condominium</td>
+<td align="right">958</td>
+<td align="right">2040</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Piermont Grand</a></td>
+<td align="right">1527000</td>
+<td>Condominium</td>
+<td align="right">1432</td>
+<td align="right">1066</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td><a href="#">Prive</a></td>
+<td align="right">1150000</td>
+<td>Condominium</td>
+<td align="right">1087</td>
+<td align="right">1058</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Tierra Vue</a></td>
+<td align="right">3100000</td>
+<td>Condominium</td>
+<td align="right">2260</td>
+<td align="right">1372</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">Livia</a></td>
+<td align="right">1250000</td>
+<td>Condominium</td>
+<td align="right">1324</td>
+<td align="right">944</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Beaufort On Nassim</a></td>
+<td align="right">11500000</td>
+<td>Condominium</td>
+<td align="right">3681</td>
+<td align="right">3124</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><a href="#">View at Kismis</a></td>
+<td align="right">879000</td>
+<td>Apartment</td>
+<td align="right">517</td>
+<td align="right">1700</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">View at Kismis</a></td>
+<td align="right">1332000</td>
+<td>Apartment</td>
+<td align="right">807</td>
+<td align="right">1651</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">The Garden Residences</a></td>
+<td align="right">718000</td>
+<td>Apartment</td>
+<td align="right">452</a></td>
+<td align="right">1588</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Parksuites</a></td>
+<td align="right">1181000</td>
+<td>Apartment</td>
+<td align="right">581</td>
+<td align="right">2033</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">The Antares</a></td>
+<td align="right">789000</td>
+<td>Apartment</td>
+<td align="right">452</td>
+<td align="right">1746</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Stirling Residences</a></td>
+<td align="right">862000</td>
+<td>Apartment</td>
+<td align="right">441</td>
+<td align="right">1955</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Stirling Residences</a></td>
+<td align="right">980000</td>
+<td>Apartment</td>
+<td align="right">441</td>
+<td align="right">2222</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Clover By The Park</a></td>
+<td align="right">1960000</td>
+<td>Condominium</td>
+<td align="right">1603</td>
+<td align="right">1223</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Grandeur Park Residences</a></td>
+<td align="right">2300000</td>
+<td>Condominium</td>
+<td align="right">1453</td>
+<td align="right">1583</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td><a href="#">Riversound Residence</a></td>
+<td align="right">1620000</td>
+<td>Condominium</td>
+<td align="right">2112</td>
+<td align="right">767</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">The Tre Ver</a></td>
+<td align="right">1064000</td>
+<td>Condominium</td>
+<td align="right">689</td>
+<td align="right">1544</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">The M</a></td>
+<td align="right">1300000</td>
+<td>Apartment</td>
+<td align="right">592</td>
+<td align="right">2196</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Infini at East Coast</a></td>
+<td align="right">1527000</td>
+<td>Apartment</td>
+<td align="right">753</td>
+<td align="right">2028</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">3 Cuscaden</a></td>
+<td align="right">2600000</td>
+<td>Apartment</td>
+<td align="right">657</td>
+<td align="right">3957</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">Martin Modern</a></td>
+<td align="right">2015000</td>
+<td>Condominium</td>
+<td align="right">764</td>
+<td align="right">2637</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">1953@Tessensohn</a></td>
+<td align="right">1707000</td>
+<td>Apartment</td>
+<td align="right">786</td>
+<td align="right">2172</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Fourth Avenue Residences</a></td>
+<td align="right">2389000</td>
+<td>Apartment</td>
+<td align="right">1076</td>
+<td align="right">2220</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">One Pearl Bank</a></td>
+<td align="right">1893000</td>
+<td>Apartment</td>
+<td align="right">893</td>
+<td align="right">2120</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Fourth Avenue Residences</a></td>
+<td align="right">1633000</td>
+<td>Apartment</td>
+<td align="right">710</td>
+<td align="right">2300</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td><a href="#">The Glades</a></td>
+<td align="right">730000</td>
+<td>Condominium</td>
+<td align="right">452</td>
+<td align="right">1615</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><a href="#">Mon Jervois</a></td>
+<td align="right">4577000</td>
+<td>Condominium</td>
+<td align="right">2368</td>
+<td align="right">1933</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td><a href="#">Stratum</a></td>
+<td align="right">1850000</td>
+<td>Condominium</td>
+<td align="right">2012</td>
+<td align="right">919</td>
+<td align="right">5</td>
+</tr>
+</tbody></table>
+
+<script>
+function myFunction() {
+    var input, filter, td, tr, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    td = document.getElementById("myUL");
+    tr = td.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        a = tr[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+<footer>
+  <p>End of page</p>
+</footer>
+
+
+
+</body>
+</html>
