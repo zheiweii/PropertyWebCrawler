@@ -37,7 +37,7 @@ public class Analytics {
 		/**
 		 * Add file path and read file
 		 */
-		String path = "C:\\SIT\\1009\\Data.csv";
+		String path = "C:\\Users\\Public\\eclipse-workspace\\WebCrawler-master\\data.csv";
 		BufferedReader reader = null;
 		String line = "";
 		
@@ -285,7 +285,7 @@ public class Analytics {
 		 * Save chart into file path as .jpeg
 		 */
 		try {
-			ChartUtilities.saveChartAsJPEG(new File("C:\\SIT\\1009\\Analytics\\Pricing.jpeg"), chart, 350, 300);
+			ChartUtilities.saveChartAsJPEG(new File("C:\\Users\\Public\\eclipse-workspace\\WebCrawler-master\\Pricing.jpeg"), chart, 350, 300);
 			} 
 		/**
 		 * Catch Exception
@@ -330,7 +330,7 @@ public class Analytics {
 		 * Save chart into file path as .jpeg
 		 */
 		try {
-			ChartUtilities.saveChartAsJPEG(new File("C:\\SIT\\1009\\Analytics\\Size.jpeg"), chart, 350, 300);
+			ChartUtilities.saveChartAsJPEG(new File("C:\\Users\\Public\\eclipse-workspace\\WebCrawler-master\\Size.jpeg"), chart, 350, 300);
 			} 
 		/**
 		 * Catch Exception
@@ -384,7 +384,7 @@ public class Analytics {
 		 * Save chart into file path as .jpeg
 		 */
 		try {
-			ChartUtilities.saveChartAsJPEG(new File("C:\\SIT\\1009\\Analytics\\Types.jpeg"), chart, 350, 250);
+			ChartUtilities.saveChartAsJPEG(new File("C:\\Users\\Public\\eclipse-workspace\\WebCrawler-master\\Types.jpeg"), chart, 350, 250);
 			} 
 		/**
 		 * Catch Exception
@@ -441,7 +441,7 @@ public class Analytics {
 		 * Save chart into file path as .jpeg
 		 */
 		try {
-			ChartUtilities.saveChartAsJPEG(new File("C:\\SIT\\1009\\Analytics\\Bedrooms.jpeg"), chart, 350, 250);
+			ChartUtilities.saveChartAsJPEG(new File("C:\\Users\\Public\\eclipse-workspace\\WebCrawler-master\\Bedrooms.jpeg"), chart, 350, 250);
 			} 
 		/**
 		 * Catch Exception
